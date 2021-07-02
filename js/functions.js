@@ -33,30 +33,11 @@ function validarEmail(field) {
     }
 }
 
-// var password = document.getElementById("senha")
-// var confirm_password = document.getElementById("confirmarSenha");
+function validarCPF(){   
 
-// function validarSenha() {
-//     if (senha.value != confirmarSenha.value) {
-//         confirmarSenha.setCustomValidity("Senhas diferentes!");
-//     } else {
-//         confirmarSenha.setCustomValidity('');
-//     }
-// }
-
-// senha.onchange = validarSenha;
-// confirmarSenha.onkeyup = validarSenha;
-
-// function validar(){
-//     let email = document.getElementById('email')
-//     let senha = document.getElementById('senha')
-//     let link = document.getElementById('linkDesabilitado')
-
-//     if(email.value.length == 0 && senha.value.length == 0){
-//         window.alert('[ERRO] Os campos tem que estar preenchidos.')
-//         link.href = ''
-//     }else{
-//         link.href = "pgInicial.html"
-//     }
-
-// }
+    var cpf = document.getElementById("medicoCPF").value; 
+    var cpfValido = /^(([0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}))$/;     
+    if (cpfValido.test(cpf) == false)    {  
+       alert("CPF invalido")
+    }
+}
