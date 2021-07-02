@@ -1,3 +1,12 @@
+
+.bt{
+    width: 100px;
+}
+
+.ml-2{
+    text-align: center;
+}
+
 .left-inner-addon {
     position: relative;
 }
@@ -23,7 +32,7 @@ input[type="date"]:valid:before {
 }
 
 #register-image{
-    background-color: #3CB371;
+    background-color: #023e8a;
     background-position:center;
     background-size:cover;
 }
