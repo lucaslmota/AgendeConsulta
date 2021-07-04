@@ -1,3 +1,9 @@
+.botoes{
+    width: 400px;
+    position: relative;
+    left: 35%;
+}
+
 .line {
     display: inline-block;
 }
